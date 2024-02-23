@@ -86,10 +86,20 @@ html, body {
 .linkedin-logo {
   height: 110px;
   margin-right: 20px;
+  transition: transform 0.3s ease; 
+}
+
+.linkedin-logo:hover {
+  transform: scale(1.1);
 }
 
 .github-logo {
   height: 80px;
+  transition: transform 0.3s ease; 
+}
+
+.github-logo:hover {
+  transform: scale(1.1);
 }
 
 .cursive {
@@ -122,10 +132,6 @@ html, body {
 .center-vertical {
   display: flex;
   align-items: center;
-}
-
-.home-logo-animation:hover::before {
-  height: 200px;
 }
 
 .underline {

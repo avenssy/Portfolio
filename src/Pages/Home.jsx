@@ -13,8 +13,8 @@ const Home = () => {
                 <img src={SAPLogo} className="SAP-logo"/> Developer
               </div>
             <div className="contact-logos-div center-vertical">
-              <a href="https://www.linkedin.com/in/avenssy/"><img className="linkedin-logo home-logo-animation" src={linkedInLogo}/></a>
-              <img className="github-logo home-logo-animation" src={gitHubLogo}/>
+              <a href="https://www.linkedin.com/in/avenssy/"><img className="linkedin-logo zoom-image" src={linkedInLogo}/></a>
+              <a href="https://github.com/avenssy"><img className="github-logo zoom-image" src={gitHubLogo}/></a>
             </div>
           </div>
           <div className="home-typing-picture-div">
