@@ -1,0 +1,151 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.header-style {
+  height: 100px;
+  display: flex;
+  padding: 0px 50px 0px 50px;
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.header-button-style {
+  min-width: 130px;
+  height: 20px;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+  outline: none;
+  border: 1px solid #000;
+  color: #000;
+  background: transparent;
+  z-index: 0;
+}
+
+.header-button-style:hover:after {
+  top: 0;
+  left: 0;
+}
+
+.header-button-style:after {
+  content: "";
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 5px;
+  left: 5px;
+  transition: 0.2s;
+  background-color: #ced4da;
+}
+
+.header-main-logo {
+  height: 80px;
+}
+
+.home-main-div {
+  height: 80vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.home-words {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-typing-picture-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-typing-picture {
+  height: 300px;
+  background-color: blue;
+}
+
+.SAP-logo {
+  height: 100px;
+}
+
+.linkedin-logo {
+  height: 110px;
+  margin-right: 20px;
+}
+
+.github-logo {
+  height: 80px;
+}
+
+.cursive {
+  font-family: "Permanent Marker", cursive;
+  font-weight: 400;
+}
+
+.two-bit-font {
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+}
+
+.gabarito-font {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.autor-one-font {
+  font-family: "Autour One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.big-font {
+  font-size: 50px;
+}
+
+.center-vertical {
+  display: flex;
+  align-items: center;
+}
+
+.home-logo-animation:hover::before {
+  height: 200px;
+}
+
+.underline {
+  position: relative;
+  text-decoration: none;
+  color: black; 
+}
+
+.underline::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 5px; 
+  background-color: maroon;
+  transition: width 0.5s ease;
+}
+
+.underline:hover::before {
+  width: 100%;
+  height: 5px;
+}
