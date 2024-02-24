@@ -1,7 +1,7 @@
-import typingImage from "../../public/programming-typing.gif";
-import SAPLogo from "../../public/SAP logo.jpg";
-import linkedInLogo from "../../public/Linkedin Logo.jpg";
-import gitHubLogo from "../../public/GitHub Logo.png";
+import typingImage from "/programming-typing.gif";
+import SAPLogo from "/SAP logo.jpg";
+import linkedInLogo from "/Linkedin Logo.jpg";
+import gitHubLogo from "/GitHub Logo.png";
 
 const Home = () => {
     return (

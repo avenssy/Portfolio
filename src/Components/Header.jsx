@@ -1,21 +1,27 @@
-import mainLogo from "../../public/AS Logo.png";
+import mainLogo from "/AS Logo.png";
 
 function Header() {
     return ( 
       <div className="header-style">
-        <div className="header-button-style gabarito-font">
-          Home
-        </div>
+        <a href="/">
+          <div className="header-button-style gabarito-font">
+            Home
+          </div>
+        </a>
         <div className="header-button-style gabarito-font">
           About
         </div>
-        <img src={mainLogo} className="header-main-logo"/>
+        <a href="/">
+          <img src={mainLogo} className="header-main-logo"/>
+        </a>
         <div className="header-button-style gabarito-font">
           Projects
         </div>
-        <div className="header-button-style gabarito-font">
-          Contact Me
-        </div>
+        <a href="/contact-me">
+          <div className="header-button-style gabarito-font">
+            Contact Me
+          </div>
+        </a>
       </div>
     );
   }
