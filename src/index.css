@@ -164,6 +164,23 @@ html, body {
   height: 400px;
 }
 
+/* Project Page */
+.project-main-div {
+  height: 80vh;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.projects-word {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
  /* General CSS */
 .cursive {
   font-family: "Permanent Marker", cursive;

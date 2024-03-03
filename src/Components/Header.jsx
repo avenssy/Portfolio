@@ -14,9 +14,11 @@ function Header() {
         <a href="/">
           <img src={mainLogo} className="header-main-logo"/>
         </a>
-        <div className="header-button-style gabarito-font">
-          Projects
-        </div>
+        <a href="/projects">
+          <div className="header-button-style gabarito-font">
+            Projects
+          </div>
+        </a>
         <a href="/contact-me">
           <div className="header-button-style gabarito-font">
             Contact Me
