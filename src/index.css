@@ -169,18 +169,51 @@ html, body {
   height: 80vh;
   margin-top: 10px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: center;
   font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .projects-word {
+  height: 20%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 40px;
 }
+
+.projects-tiles {
+  height: 80%;
+}
+
+.tile-label {
+  transition: transform 0.3s ease;
+}
+
+.tile-label:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
+.dino-run-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+.tile-image {
+  height: 150px;
+  transition: transform 0.3s ease;
+}
+
+.tile-image:hover {
+  transform: scale(1.1);
+}
+
+
  /* General CSS */
 .cursive {
   font-family: "Permanent Marker", cursive;
